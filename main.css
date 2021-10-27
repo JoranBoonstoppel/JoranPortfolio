@@ -16,19 +16,17 @@ header {
 }
 
 .max-width {
-    max-width: 1300px;
+
     padding: 0 80px;
 
 }
 
 .navbar {
-
-
     width: 100%;
-    font-family: 'Poppins', sans-serif;
-    padding: 5px;
+    font-family: 'Qahiri', sans-serif;
     position: sticky;
     top: 0;
+    background-color: black;
 
 }
 
@@ -39,11 +37,13 @@ header {
 }
 
 .navbar .logo a {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
     color: white;
     text-decoration: none;
-    margin-left: 40px;
+
+
+
 }
 
 .navbar .menu li {
@@ -53,18 +53,24 @@ header {
 }
 
 .menu a:hover {
-
+    color: red;
+    transition: color 1s;
     background-color: grey;
 }
 
 .navbar .menu li a {
     color: #fff;
     display: flex;
-    font-size: 18px;
+    padding: 6px 10px;
     font-weight: 500;
     margin-left: 25px;
     text-decoration: none;
     font-family: 'Ruda', sans-serif;
+    border-radius: 20px;
+
+}
+a:hover{
+    color: green;
 
 }
 
@@ -72,12 +78,14 @@ header {
     margin-left: 8%;
     margin-top: 10%;
     color: #fff9fc;
+
 }
 
 .information h1 {
     font-size: 50px;
     font-family: 'Syncopate', sans-serif;
     color: #ffffff;
+    display: flex;
 
 }
 
@@ -108,7 +116,12 @@ header {
 .information span {
     color: #ffffff;
 }
+aside{
 
+
+
+
+}
 
 .home a a:hover {
     color: darkblue;
@@ -133,6 +146,7 @@ header {
 
 .inhoud p {
     width: 700px;
+    color: white;
 
 }
 
@@ -157,9 +171,179 @@ header {
 
 }
 
-.contact p {
+
+.list{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.table1{
+    padding: 160px;
+    text-align: center;
+}
+table{
+    text-align: center;
+    font-weight: 600;
+    border: red;
+
+
+
+}
+table th, td{
+    border: 2px solid white;
+    font-size: 35px;
+    color: white;
+}
+
+.collage img{
+    height: 200px;
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 100px;
+
+
+}
+.contactpage form{
+    width: 100%;
+    overflow: hidden;
+    max-width: 600px;
+    color: #ffffff;
+    margin: auto;
+    font-size: 30px;
+
+}
+
+input[type=text]{
+    padding: 20px 40px;
+    max-width: 600px;
+    width: 100%;
+    background: #111;
+    color: white;
+}
+input[type=date]{
+    padding: 20px 40px;
+    max-width: 600px;
+    width: 100%;
+    background: #111;
+    color: white;
+}
+input[type=email]{
+    padding: 20px 40px;
+    max-width: 600px;
+    width: 100%;
+    background: #111;
+    color: white;
+}
+input[type=submit]{
+    max-width: 600px;
+    background: darkcyan;
+    float: right;
+    color: #ffffff;
+    padding: 12px 50px;
+    border-radius: 15px;
+}
+.text-opmerking{
+    max-width: 600px;
+    width: 100%;
+    margin: 16px 0;
+    padding: 20px 40px;
+    background: #111111;
+    color: white;
+}
+
+.h1CV{
+    text-align: center;
     font-size: 20px;
-    width: 500px;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.arrow{
+    text-align: center;
+}
+.down{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-top: 8px solid black;
+    border-left: 8px solid black;
+    transform: rotate(45deg);
+    left: 50%;
+
+    text-align: center;
+    top: 50%;
+}
+.beneden{
+    transform: rotate(180deg);
+}
+
+.CVbutton{
+    background: crimson;
+    border-radius: 8px;
+    padding: 10px 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+.afsluiting{
+    padding: 100px 100px;
+    font-family: 'Lexend Zetta', sans-serif;
+}
+
+.afsluiting h1{
+    font-size: 60px;
+    color: white;
+
+}
+
+.afsluiting p{
+    font-size: 30px;
+    color: white;
+    max-width: 800px;
+
+}
+
+.afsluiting a{
+    padding: 15px 20px;
+    background-color: red;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
 
 
+
+}
+
+.Opleiding{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+
+}
+.opleiding1{
+    padding: 50px 150px;
+}
+.opleiding1 h2{
+  font-size: 60px;
+
+}
+
+.opleiding1 p{
+color: #ffffff;
+    font-size: 20px;
 }
